@@ -1,2 +1,5 @@
 # prediksi_kecepatan_kipas_angin_dalam_ruangan
-project AI untuk memprediksi kecepatan kipas dalam ruangan
+project AI untuk memprediksi kecepatan kipas dalam ruangan berdasarkan suhu, kelembapan, jumlah orang, dan kondisi ruangan menggunakan Jaringan Saraf Tiruan(JST)
+tujuan project ini adalah memprediksi kecepatan kipas secara otomatis berdasarkan perubahan kondisi ruangan
+cara menjalankan : Untuk menjalankan program prediksi kecepatan kipas angin, pastikan Python sudah terinstal di komputer. Instal library Pandas dan Scikit-learn, kemudian siapkan dataset yang digunakan.Buka kode Python melalui Google Colab atau Visual Studio Code, lalu jalankan program untuk proses training dan pengujian model.Setelah itu, masukkan data suhu ruangan, kelembapan, dan kondisi ruangan. Model Random Forest akan menghasilkan prediksi kecepatan kipas dari level 1 sampai Untuk mendapatkan akurasi di atas 80%, perlu dilakukan pengujian dan perbaikan model secara berkala.
+hyperparameter : Hyperparameter pada model Random Forest yang digunakan terdiri dari n_estimators=200, max_depth=20, min_samples_split=2, min_samples_leaf=1, random_state=42, dan class_weight='balanced'
